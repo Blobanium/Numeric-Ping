@@ -31,7 +31,7 @@ public abstract class MixinPlayerListHud extends DrawableHelper {
 			return;
 		}
 		
-		RenderSystem.color4f(1.0F, 1.0F, 1.0F, 1.0F);
+		RenderSystem.clearColor(1.0F, 1.0F, 1.0F, 1.0F);
 		int rgb = 11141120;
 		if (ping < 0) {
 			rgb = 255;
